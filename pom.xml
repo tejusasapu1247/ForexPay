@@ -24,6 +24,8 @@
 			**/constant/*,
 			**/exception/*
 		</sonar.coverage.exclusions>
+		
+		
 	</properties>
 
 	<dependencies>
@@ -71,7 +73,7 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://52.172.39.32:8081/nexus/content/repositories/snapshots</url>
+			<url>http://3.23.87.196:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 
