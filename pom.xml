@@ -24,6 +24,9 @@
 			**/constant/*,
 			**/exception/*
 		</sonar.coverage.exclusions>
+		<sonar.host.url>http://3.23.87.196:9000</sonar.host.url>
+  		<sonar.login>admin</sonar.login>
+  		<sonar.password>admin123</sonar.password>
 		
 		
 	</properties>
@@ -75,6 +78,10 @@
 			<id>nexus</id>
 			<url>http://3.23.87.196:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
+		<repository>
+		 	<id>nexus</id>
+   			<url>http://3.23.87.196:8081/nexus/content/repositories/releases</url>
+  		</repository>
 	</distributionManagement>
 
 	<build>
